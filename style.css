@@ -1,0 +1,156 @@
+/* Celkové nastavení pro body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Styly pro hlavní menu*/
+#navigationMenu {
+    overflow: hidden;
+    position: fixed;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+#navigationMenu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigationMenu a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#navigationMenu select {
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+}
+
+#navigationMenu select:hover {
+    background-color: #ddd;
+}
+
+#searchInput {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* Kontejner pro celý obsah */
+#container {
+    display: flex;
+    margin-top: 47px;
+    width: 100%;
+}
+
+/* Styly pro sidebar */
+#sideBar {
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    height: 100%;
+    position: fixed;
+}
+
+#sidebar h3 {
+    text-align: center;
+}
+
+#kouzlaTl button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+
+#kouzlaTl button:hover {
+    background-color: #0056b3;
+}
+
+/* Styly pro oblast pro detaily kouzel */
+#spellDetails {
+    flex-grow: 1;
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+#kouzla {
+    margin-top: 20px;
+}
+@media (max-width: 1024px){
+    #navigationMenu select,
+    #searchInput,
+    a{
+        font-size: 14px;
+    }
+    #sideBar{
+        width: 225px;
+    }
+    #kouzlaTl Button{
+        font-size: 14px;  
+    }
+    #spellDetails {
+        margin-left: 225px;
+    }
+}
+@media (max-width: 768px){
+    #navigationMenu select,
+    #searchInput,
+    a{
+        font-size: 11px;
+    }
+    #sideBar{
+        width: 200px;
+    }
+    #kouzlaTl Button{
+        font-size: 12px;  
+    }
+    #spellDetails {
+        margin-left: 200px;
+    }
+}
+@media (max-width: 640px){
+    #navigationMenu select,
+    #searchInput,
+    a{
+        font-size: 7px;
+    }
+    #sideBar{
+        width: 150px;
+    }
+    #kouzlaTl Button{
+        font-size: 11px;  
+    }   
+    #spellDetails {
+        margin-left: 150px;
+    }
+}
+
+
+
+    

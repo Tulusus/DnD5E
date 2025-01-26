@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MainPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navigationMenu">
+        <a href="index.html">DnD 5e</a>
+        
+        <input type="text" id="searchInput" placeholder="Vyhledat kouzlo..." />
+
+        <select id="levelFilter">
+            <option value="">Filtruj podle levelu</option>
+            <option value="0">Trik</option>
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+            <option value="3">Level 3</option>
+            <option value="4">Level 4</option>
+            <option value="5">Level 5</option>
+            <option value="6">Level 6</option>
+            <option value="7">Level 7</option>
+            <option value="8">Level 8</option>
+            <option value="9">Level 9</option>
+        </select>
+    
+        <select id="classFilter">
+            <option value="">Filtruj podle povolání</option>
+            <option value="Bard">Bard</option>
+            <option value="Čaroděj">Čaroděj</option>
+            <option value="Černokněžník">Černokněžník</option>
+            <option value="Druid">Druid</option>
+            <option value="Hraničář">Hraničář</option>
+            <option value="Klerik">Klerik</option>
+            <option value="Kouzelník">Kouzelník</option>
+            <option value="Paladin">Paladin</option>
+        </select>
+    
+        <select id="typeFilter">
+            <option value="">Filtruj podle typu</option>
+            <option value="Vymítání">Vymítání</option>
+            <option value="Očarování">Očarování</option>
+            <option value="Nekromancie">Nekromancie</option>
+            <option value="Vyvolávání">Vyvolávání</option>
+            <option value="Iluze">Iluze</option>
+            <option value="Transmutace">Transmutace</option>
+            <option value="Věštění">Věštění</option>
+            <option value="Iluze">Zaklínání</option>
+        </select>
+        
+        
+    </div>
+
+    <div id="container">
+        <div id="sideBar">
+            <h3>kouzla</h3>
+            <div id="kouzlaTl"></div>
+        </div>
+        <div id="spellDetails">
+            
+            <div id="kouzla">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

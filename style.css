@@ -171,7 +171,7 @@ body {
     #navigationMenu select,
     #searchInput,
     a {
-        font-size: 7px;
+        font-size: 6px;
     }
 
     #sideBar {
@@ -184,27 +184,5 @@ body {
 
     #spellDetails {
         margin-left: 150px;
-    }
-}
-
-@media (max-width: 500px) {
-
-    #navigationMenu select,
-    #searchInput,
-    a {
-        font-size: 5px;
-        color: red;
-    }
-
-    #sideBar {
-        width: 125px;
-    }
-
-    #kouzlaTl Button {
-        font-size: 10px;
-    }
-
-    #spellDetails {
-        margin-left: 125px;
     }
 }

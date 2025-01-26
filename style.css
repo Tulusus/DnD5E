@@ -102,55 +102,108 @@ body {
 #kouzla {
     margin-top: 20px;
 }
-@media (max-width: 1024px){
+
+@media (max-width: 1024px) {
+
     #navigationMenu select,
     #searchInput,
-    a{
+    a {
         font-size: 14px;
     }
-    #sideBar{
+
+    #sideBar {
         width: 225px;
     }
-    #kouzlaTl Button{
-        font-size: 14px;  
+
+    #kouzlaTl Button {
+        font-size: 14px;
     }
+
     #spellDetails {
         margin-left: 225px;
     }
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
+
     #navigationMenu select,
     #searchInput,
-    a{
+    a {
         font-size: 11px;
     }
-    #sideBar{
+
+    #sideBar {
         width: 200px;
     }
-    #kouzlaTl Button{
-        font-size: 12px;  
+
+    #kouzlaTl Button {
+        font-size: 12px;
     }
+
     #spellDetails {
         margin-left: 200px;
     }
 }
-@media (max-width: 640px){
+
+@media (max-width: 640px) {
+
     #navigationMenu select,
     #searchInput,
-    a{
+    a {
         font-size: 7px;
     }
-    #sideBar{
+
+    #sideBar {
         width: 150px;
     }
-    #kouzlaTl Button{
-        font-size: 11px;  
-    }   
+
+    #kouzlaTl Button {
+        font-size: 11px;
+    }
+
     #spellDetails {
         margin-left: 150px;
     }
 }
 
+@media (max-width: 640px) {
 
+    #navigationMenu select,
+    #searchInput,
+    a {
+        font-size: 7px;
+    }
 
-    
+    #sideBar {
+        width: 150px;
+    }
+
+    #kouzlaTl Button {
+        font-size: 11px;
+    }
+
+    #spellDetails {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #navigationMenu select,
+    #searchInput,
+    a {
+        font-size: 6px;
+    }
+
+    #sideBar {
+        width: 125px;
+    }
+
+    #kouzlaTl Button {
+        font-size: 10px;
+    }
+
+    #spellDetails {
+        margin-left: 125px;
+    }
+}

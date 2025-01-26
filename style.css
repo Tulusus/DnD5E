@@ -172,6 +172,7 @@ body {
     #searchInput,
     a {
         font-size: 6px;
+        color: red;
     }
 
     #sideBar {

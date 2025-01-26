@@ -192,7 +192,8 @@ body {
     #navigationMenu select,
     #searchInput,
     a {
-        font-size: 6px;
+        font-size: 5px;
+        color: red;
     }
 
     #sideBar {
